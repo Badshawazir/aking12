@@ -21,7 +21,7 @@ fbmf = subprocess.check_output('getprop ro.product.manufacturer',shell=True).dec
 fbbd = subprocess.check_output('getprop ro.product.brand',shell=True).decode('utf-8').replace('\n','')
 fbca = subprocess.check_output('getprop ro.product.cpu.abilist',shell=True).decode('utf-8').replace(',',':').replace('\n','')
 
-xx=requests.get('https://raw.githubusercontent.com/Badshawazir/ua.txt/main/ua.txt').text.splitlines()
+xx=requests.get('https://raw.githubusercontent.com/Badshawazir/aking12/main/ua2.txt').text.splitlines()
 def clear():
  os.system('clear')
  print(logo)
